@@ -211,7 +211,6 @@ public class Renderer {
     // sort entities to get depth rendering order
     entities.sort(Comparator.comparingDouble(o -> o.getLocation().getX() + o.getLocation().getY()));
 
-    spriteCoord = new Point(java.lang.Double.MAX_VALUE, java.lang.Double.MAX_VALUE);
     entityCounter = 0;
     int x;
     int y;
