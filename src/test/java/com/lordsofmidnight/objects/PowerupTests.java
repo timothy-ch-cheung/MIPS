@@ -10,10 +10,13 @@ import com.lordsofmidnight.objects.powerUps.Rocket;
 import com.lordsofmidnight.objects.powerUps.Speed;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class PowerupTests {
 
+  @Disabled
   @Test
   void effectPowerups() {
     ConcurrentHashMap<UUID, PowerUp> activePowerups = new ConcurrentHashMap<>();
@@ -30,6 +33,7 @@ public class PowerupTests {
     assert (entity.isInvincible());
   }
 
+  @Disabled
   @Test
   void rocketTest() {
     AudioController controller = new AudioController(1);

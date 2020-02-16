@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.lordsofmidnight.ai.routefinding.RouteFinder;
 import com.lordsofmidnight.gamestate.maps.Map;
 import com.lordsofmidnight.gamestate.points.Point;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -18,6 +19,7 @@ class AStarRouteFinderTests {
   /**
    * Test method for {@link AStarRouteFinder#AStarRouteFinder(Map)}.
    */
+  @Disabled
   @Test
   void testAStarRouteFinder() {
     fail("Not yet implemented");
@@ -26,6 +28,7 @@ class AStarRouteFinderTests {
   /**
    * Test method for {@link RouteFinder#getRoute(Point, Point)}.
    */
+  @Disabled
   @Test
   void testGetRoute() {
     fail("Not yet implemented");
